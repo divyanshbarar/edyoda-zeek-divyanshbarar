@@ -1,0 +1,36 @@
+.home {
+  background-color: #f2f6ff;
+  height: 100vh;
+  max-height: max-content;
+}
+.upcoming {
+  position: absolute;
+  width: fit-content;
+  height: 42px;
+  left: 191px;
+  top: 650px;
+}
+.container {
+  display: flex;
+  max-width: 1400px !important;
+  position: absolute;
+  top: 710px;
+  left: 192px;
+}
+.button__next {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 860px;
+  top: 922px;
+  display: flex;
+}
+.button__next > button > img {
+  height: 30px;
+}
+.button__next > button {
+  margin-right: 10px;
+  height: 30px;
+  background: transparent;
+  border: none;
+}

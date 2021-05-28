@@ -1,0 +1,30 @@
+.sidenav {
+  left: 0px;
+  top: 120px;
+  position: fixed;
+  width: 120px;
+  background-color: #15294b;
+  height: 100%;
+  color: white;
+  z-index: 1000;
+}
+.sidenav__content {
+  display: flex;
+  padding-top: 70px;
+  flex-direction: column;
+}
+.img__text {
+  height: 70px;
+  padding-top: 10px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.sidenav__content > a {
+  color: white;
+}
+.img__textBackground {
+  background: rgba(205, 214, 229);
+  color: #15294b;
+}

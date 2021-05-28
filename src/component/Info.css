@@ -1,0 +1,16 @@
+.info {
+  position: absolute;
+  width: 840px;
+  height: fit-content;
+  padding-bottom: 40px;
+  left: 467px;
+  top: 171px;
+  border-bottom: 1px solid gray;
+}
+.info > p {
+  color: gray;
+  font-size: 13px;
+}
+.info__session {
+  margin-top: 50px;
+}

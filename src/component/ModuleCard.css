@@ -1,0 +1,49 @@
+.moduleCard {
+  width: 280px;
+  margin-right: 40px;
+  background-color: white;
+  border: 1px solid lightblue;
+  height: 196px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px gray;
+}
+.tech__card {
+  display: flex;
+  padding: 10px 20px;
+}
+.card__avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card__avatar > img {
+  margin-right: 10px;
+}
+.card__avatar > p {
+  color: rgb(6, 108, 192);
+}
+.tech__card > img {
+  margin-right: 20px;
+}
+.card__infoDisplay {
+  display: flex;
+  padding-left: 40px;
+}
+.card__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+.card__info > h4 {
+  font-size: 25px;
+}
+.card__info > p {
+  font-size: 12px;
+}
+.subject__name {
+  padding-top: 10px;
+  font-size: 18px;
+  font-weight: 400;
+}

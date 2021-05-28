@@ -1,0 +1,112 @@
+.dashboard {
+  align-items: center;
+  display: flex;
+  margin-top: 54px;
+  background-color: #15294b;
+
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  color: white;
+  z-index: 1000;
+}
+.progress__abc {
+  width: 200px;
+  margin-left: auto;
+  margin-right: 20px;
+}
+.dropdown__item {
+  margin-top: 120px;
+  display: flex;
+  height: 50px;
+  background-color: #15294b;
+  color: white;
+  padding-left: 150px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  /* transform: translateY(50);
+  transition: transform 0.44s ease-in-out; */
+}
+
+.dashboard > h2 {
+  /* text-align: center; */
+  margin-right: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.dropdown {
+  color: #fff;
+  background: transparent;
+  border: none;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.dropdown__icon {
+  margin-left: 5px;
+}
+.rotate {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.all {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown__item > h3 {
+  font-family: Arial;
+  margin-right: 50px;
+  font-weight: 400;
+  font-size: 18px;
+}
+.selected {
+  background-color: white;
+  color: #15294b;
+  height: fit-content;
+  padding: 2px;
+  border-radius: 5px;
+}
+.dashboard__container {
+  display: flex;
+  width: 350px;
+  margin-left: auto;
+  margin-right: 30px;
+  align-items: center;
+}
+.dashboard__container > h6 {
+  margin-right: 50px;
+}
+.join__dash {
+  background-color: gray;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 10px 30px;
+  border-radius: 50px;
+}
+@media (max-width: 768px) {
+  .dashboard {
+    padding-top: 20px;
+    flex-direction: column;
+    height: fit-content;
+    padding-bottom: 10px;
+  }
+  .dashboard > h2 {
+    font-size: 24px;
+    margin-left: 50px;
+  }
+  .progress__abc {
+    margin-left: 2px;
+  }
+  .dropdown__item {
+    padding-left: 10px;
+    height: fit-content;
+    flex-direction: column;
+  }
+  .dropdown__item > h3 {
+    font-size: 15px;
+    width: fit-content;
+  }
+}

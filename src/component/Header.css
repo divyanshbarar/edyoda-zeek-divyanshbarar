@@ -1,0 +1,38 @@
+.header {
+  background-color: rgb(255, 255, 255);
+  padding: 8px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+.header__content > img {
+  height: 30px;
+}
+.header__content {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  justify-content: space-between;
+}
+@media (max-width: 768px) {
+  .header__content {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+.header__container {
+  display: flex;
+  align-items: center;
+}
+.header__container > h3 {
+  font-family: arial, sans-serif;
+  font-weight: 300;
+  padding-top: 10px;
+  margin-right: 20px;
+  font-size: 18px;
+}
+.header__bell {
+  margin-right: 50px;
+}
